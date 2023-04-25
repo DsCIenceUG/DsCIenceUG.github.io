@@ -1,0 +1,44 @@
+---
+layout: "default"
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/about.css">
+
+
+<section class="banner__container">
+	<img src="{{ site.baseurl }}/assets/images/{{ page.banner }}" alt="logo" class="banner__img">
+</section>
+
+
+<div class="container about__container">
+	<div class="row">
+		<div class="col-md-4">
+			<img src="{{ site.baseurl }}/assets/images/{{ page.image }}" class="img-fluid about__img">
+		</div>
+		<div class="col-md-8">
+			<h2>{{ page.title }}</h2>
+			{% for item in page.ps %}
+				<p>{{ item }}</p>
+				<br>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+
+<div class="container objectives__container">
+	<h2 class="objectives__title">{{ page.subtitle }}</h2>
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="list-group">
+				{% for item in page.items %}
+					<li class="list-group-item">
+						<blockquote class="blockquote">
+							<p class="mb-0">{{ item }}</p>
+						</blockquote>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

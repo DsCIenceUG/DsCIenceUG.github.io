@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body  {
+	background-color: #002341;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar {
+  background-color: #C0CAE3 !important;
+	box-shadow: 0px 5px 5px #000;
+	z-index: 10000;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+	font-weight: 400;
+	color: black;
+	transition: all 350ms ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+	color: #4B6BFF;
+}
+
+.logo__container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	padding: 10px;
+	width: 300px;
+}
+
+.magazines__year {
+	color: white;
+	font-size: 3rem;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.magazines__item {
+	padding: 1rem;
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.magazine__month {
+	color: white;
+	font-weight: 300;
+}
+
+.magazine__img {
+	max-width: 300px;
+	margin-bottom: 1rem;
+	
+	cursor: pointer;
+	transition: all 350ms ease-in-out;
+}
+
+.magazine__img:hover {
+  border: 2px solid #fff;
+  transform: scale(1.03);
+}
+
+.magazine__bib {
+	text-decoration: none;
+	background-color: white;
+	padding: 0.3rem 1rem;
+	font-weight: 500;
+	cursor: pointer;
+	color: black;
+	transition: all 350ms ease-in-out;
+}
+
+.magazine__bib:hover {
+  transform: scale(1.03);
+}
+
+.footer {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	opacity: 0.3;
+	color: white;
+	cursor: default;
+	transition: all 350ms ease-in-out;
+}
+
+.footer a {
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.footer:hover {
+	opacity: 1;
+}
+
+.title {
+	color: white;
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: center;
+	margin: 3rem;
+}
+
+
+
+.social-box .box {
+	background: #FFF;
+	border-radius: 10px; 
+	margin: 20px 0;
+	cursor: default;
+	padding: 40px 10px;
+	transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover {
+ box-shadow: 2px 2px 3px #4183D7;
+}
+
+.social-box .box-text {
+	font-size: 15px;
+	line-height: 30px;
+	margin: 20px 0;
+}
+
+.box-btn {
+	color: #4183D7;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+
+.box-btn a {
+	color: #4183D7;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.social-box .fa {
+	color: #4183D7;
+}
+
+.social-box .fa#github {
+	color: black;
+}
