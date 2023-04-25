@@ -23,7 +23,7 @@ email: david.pedroza.segoviano@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Somos una publicación de la División de Ciencias e Ingenierías de la Universidad de Guanajuato que se ha dedicado a reunir artículos de interés académico.
   Publicamos textos basados en investigaciones tanto de científicos consolidados como de estudiantes, que promueven temas en torno a la divulgación científica, proyectos artísticos y de cultura popular.
-baseurl: "/DsCIenceUG.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DBubu73
 github_username:  BubuDavid
